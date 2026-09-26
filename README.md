@@ -20,13 +20,14 @@ Most of my work lives in client and company repositories, so this page shows onl
 ## Projects on GitHub
 
 - **[EdTech (Mish)](https://github.com/nvy8/Lets_go_on_a_mish)**: classroom app that teaches children aged 9 to 14 to research with AI: five AI-coached stages, from question design to spotting AI hallucinations, ending in a PDF research brief. Hackathon, May 2026, co-author. *TypeScript, Next.js, React, MongoDB, Anthropic API*
+- **[vehicle-data-api](https://github.com/tudorandrian/vehicle-data-api)**: read-only vehicle catalogue API on openly licensed public data (EEA, DRPCIV, Wikidata, NHTSA vPIC): makes, models, variants and ro/en taxonomies with per-record provenance and licences, API keys with scopes and rate limits, an OpenAPI contract enforced in CI, 496 tests at 92% coverage. Reference implementation with sample data, v1.0.2. *PHP 8.4, Laravel 13, MariaDB, Docker, OpenAPI*
 - **[genai-practice-projects](https://github.com/tudorandrian/genai-practice-projects)**: twelve tested Python projects, from data preparation and classical ML to transformer models and RAG with LangChain and Chroma; CI on Ubuntu and Windows. Practice work.
 - **[keras-image-classifier](https://github.com/tudorandrian/keras-image-classifier)**: reproducible image classification with Keras 3 on JAX: leak-free splits, recorded training runs, evaluation against a baseline, tests that assert accuracy. Stable, v1.1.0.
-- **[vision-lab-flask](https://github.com/tudorandrian/vision-lab-flask)**: classical image processing and pretrained vision models (Faster R-CNN, DeepLabV3) behind a tested Flask app. Beta, v1.1.3.
+- **[vision-lab-flask](https://github.com/tudorandrian/vision-lab-flask)**: classical image processing and pretrained vision models (Faster R-CNN, DeepLabV3) behind a tested Flask app. Beta, v1.1.4.
 
 ## Stack
 
-- **Web (since 2017):** PHP, WordPress custom themes and plugins, WooCommerce, JavaScript, HTML, CSS, REST APIs, payment gateways (Stripe, PayPal, EuPlatesc, LibraPay)
+- **Web (since 2017):** PHP, Laravel, WordPress custom themes and plugins, WooCommerce, JavaScript, HTML, CSS, REST APIs, payment gateways (Stripe, PayPal, EuPlatesc, LibraPay)
 - **Data:** MySQL, MariaDB, Redis, SQLite, PostgreSQL, MongoDB
 - **Python (since 2026):** Flask, FastAPI, pandas, pytest
 - **AI (since 2026):** Anthropic API, prompt engineering, structured output, RAG, LangChain, Hugging Face Transformers, scikit-learn, Keras, PyTorch, Ollama
