@@ -16,6 +16,11 @@ Most of my work lives in client and company repositories, so this page shows onl
 - **[pret-asigurare.ro](https://pret-asigurare.ro)**: insurance platform with an RCA tariff calculator, a driving-licence test simulator and a Green Card comparator; AI-generated content checked against validation rules; 480+ PHPUnit tests. *PHP, JavaScript, MySQL, WordPress REST API*
 - **[pret-peco.ro](https://pret-peco.ro)**: fuel-price comparator with scheduled data syncs, failure alerts and an hourly watchdog, an exchange-rate plugin and a Playwright go-live gate. *PHP, JavaScript, MariaDB, Redis*
 - **[compara-asigurari.ro](https://compara-asigurari.ro)**: car-insurance comparison and purchase, built at TECHNODEV SRL: broker APIs, vehicle lookup by plate and VIN, online card payment, policy PDFs. *PHP, JavaScript, WordPress, Composer*
+- **[wearmemories.com](https://wearmemories.com/)**: brand site for my personalised apparel brand, live on WordPress with a custom theme. I built it with generative AI at every stage, from brand to production. *PHP, WordPress, Python, Playwright, Docker, GitHub Actions*
+  - **Design:** brand book written with Claude; logo kit, favicons and five page templates designed in Claude Design, then handed off to Claude Code as HTML.
+  - **Build:** spec-driven development with Claude Code: brainstorm, written implementation plan, then AI agents working task by task; 130+ commits, most of them AI-assisted, merged through 23 pull requests.
+  - **Testing:** 260+ automated tests (pytest, Playwright, WordPress), axe-core checks with zero accessibility violations, Lighthouse budgets; the live site scores 100 on Lighthouse mobile for accessibility, best practices and SEO.
+  - **Deploy and SEO:** CI in GitHub Actions (PHP linting, build, tests, Lighthouse); after go-live, an AI-run audit of the production site (228 page loads on 13 viewports in Chromium, Firefox and WebKit), re-run after fixes; AI-assisted keyword research, FAQ schema and spam-backlink cleanup.
 
 ## Projects on GitHub
 
